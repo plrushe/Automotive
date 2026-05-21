@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useCallback, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -14,7 +12,7 @@ import {
   Wrench,
 } from "lucide-react";
 
-const LOGO_IMAGE_SRC = "fourstones-logo.jpg";
+const LOGO_IMAGE_SRC = "/fourstones-logo.jpeg";
 
 const SERVICES = [
   {
@@ -131,7 +129,7 @@ export default function FourstonesAutomotiveLanding() {
               </div>
 
               <h1 className="max-w-3xl text-5xl font-black leading-[0.95] tracking-tight md:text-7xl">
-                A Friendly local garage service you can rely on.
+                Reliable garage services with a sharp, modern edge.
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-white/68">
